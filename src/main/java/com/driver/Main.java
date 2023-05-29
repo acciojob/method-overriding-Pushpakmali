@@ -6,7 +6,7 @@ public class Main {
         object.meth();
     }
 
-    static class A {
+    public static class A {
         public A() {
         }
 
@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    static class B extends A {
+    public static class B extends A {
         public B() {
         }
 
